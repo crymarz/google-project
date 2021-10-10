@@ -1,1 +1,112 @@
-/* fill in styles here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+
+section .main {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+section .main #logo {
+    width: 284px;
+    height: 95px;
+    margin: 0 auto;
+}
+
+section .main .searchBox {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+section .main .searchBox .search {
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    font-family: 'arial', sans-serif;
+}
+
+section .main .searchBox .search:hover {
+    border-color: #aaa;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+
+section .main .buttons {
+    margin-top: 20px;
+}
+
+section .main .buttons button {
+    margin: 0 5px;
+    padding: 12px 20px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+section .main .buttons button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f8f8;
+    color: #222;
+    border-color: #aaa;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    font-size: 14px;
+    font-family: 'arial', sans-serif;
+    color: #5f6368;
+}
+
+.footer .right {
+    padding-right: 30px;
+}
+
+.footer .left {
+    padding-left: 30px;
+}
+
+.footer ul li {
+    display: inline;
+    padding-left: 27px;
+}
+
+.footer ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
