@@ -25,7 +25,7 @@ section .main {
     margin: 0 auto;
 }
 
-section .main #logo {
+section .main .google-image {
     width: 284px;
     height: 95px;
     margin: 0 auto;
@@ -54,11 +54,11 @@ section .main .searchBox .search:hover {
     box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
 }
 
-section .main .buttons {
+section .main .button-wrapper {
     margin-top: 20px;
 }
 
-section .main .buttons button {
+section .main .button-wrapper button {
     margin: 0 5px;
     padding: 12px 20px;
     background-color: #f2f2f2;
@@ -71,7 +71,7 @@ section .main .buttons button {
     outline: none;
 }
 
-section .main .buttons button:hover {
+section .main .button-wrapper button:hover {
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
     background-color: #f8f8f8;
     color: #222;
