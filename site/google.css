@@ -96,20 +96,25 @@ footer {
 .right {
     padding-right: 30px;
     display: inline;
+    color: #5f6368;
+    text-decoration: none;
 }
 
 .left {
     padding-left: 30px;
     display: inline;
     padding-left: 27px;
+    color: #5f6368;
+    text-decoration: none;
 }
 
-.right:hover {
+a:hover {
     text-decoration: underline;
     cursor: pointer;
+    color: #5f6368;
 }
 
-.left:hover {
-    text-decoration: underline;
-    cursor: pointer;
+a:visited {
+    color: #5f6368;
+    text-decoration: none;
 }
