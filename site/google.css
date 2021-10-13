@@ -93,11 +93,11 @@ section .main .button-wrapper button:hover {
     color: #5f6368;
 }
 
-.footer .right {
+.right {
     padding-right: 30px;
 }
 
-.footer .left {
+.left {
     padding-left: 30px;
 }
 
